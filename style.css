@@ -1,0 +1,441 @@
+
+/* Font#01 */
+@font-face
+{
+    src:url('bebasneue.ttf');
+    font-family:bebasneue;
+}
+
+/* Font#02 */
+@font-face  {
+    font-family:roboto;
+    src: url('roboto.ttf');
+}
+
+body
+{
+    margin:0px;
+    margin-top:0px;
+}
+
+/* Header (Contains Nike Logo, The Heading and The Menu Bar) */
+#header
+{
+    display: flex;
+    width:100%;
+    box-shadow:0px 10px 10px lightgrey;
+    position:fixed;
+    background-color:#fff9f4;
+}
+
+/* The Div Containing The Logo And The Heading */
+.logonhead
+{
+    width:100%;
+    display: flex;
+    justify-content:center;
+}
+
+/* Nike Logo Image */
+.logo
+{
+    width:80px;
+    height:40px;
+}
+
+/* The "NIKE REACT" Heading */
+.heading
+{
+    font-family:bebasneue;
+    font-size:20px;
+    font-weight:bold;
+    padding-top:5px;
+}
+
+/* To Create Space Between The Words "NIKE" & "REACT" In The Header */
+.word-space
+{
+    word-spacing:5px;
+}
+
+/* The Div containing All The Navigation Links */
+#menu
+{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    padding-top:10px;
+}
+
+/* Grouping All The Navigation Links */
+.nav-link
+{
+    text-decoration:none;
+    font-weight:bold;
+    color:coral;
+}
+
+/* Coral(orange-ish) Colored Font */
+.coral
+{
+    color:#ff8367;
+}
+
+/* Navy Blue Colored Font */
+.navy-blue
+{
+    color:#363958;
+}
+
+/* Banner Section */
+#banner
+{
+    display: flex;
+    justify-content:center;
+    gap:30px;
+    padding-top:50px;
+    padding-bottom:20px;
+    background-color:#fff9f4;
+}
+
+/* Banner Image Div */
+.banner-img
+{
+    display: flex;
+    align-items:center;
+}
+
+/* Banner Text Div */
+#banner-text
+{
+    width:300px;
+}
+
+/* Image In The Banner */
+#infinity
+{
+    width:400px;
+    height:350px;
+}
+
+/* Text In The Banner */
+.ban-txt
+{
+    font-size:80px;
+    font-family:bebasneue;
+    margin:0px;
+    padding:0px;
+}
+
+/* Para Of The Banner */
+.ban-p
+{
+    font-size:20px;
+}
+
+/* The "But Now" Button */
+.buy-now-button
+{
+    width:150px;
+    height:50px;
+    font-size:15px;
+    background-color:#3D4FF3;
+    border-radius:20px;
+    border:0px;
+    color:white;
+}
+
+/* Div Containing The Shoes */
+.shoes
+{
+    width:100vw;
+    height:2000px;
+}
+
+/* A Div For The Background Color */
+.bg-color-div
+{
+    /* background-color:#C1C4C6; */
+    background-color:#CCCCCC;
+    margin-top:-50px;
+}
+
+/* Div Containing The Headings "Casual Shoes" & "Formal Shoes" */
+.sub-head
+{
+    font-family:bebasneue;
+    font-size:40px;
+    font-weight:bold;
+    color:#21266e;
+    padding-left:250px;
+    padding-top:40px;
+}
+
+/* Each Row Of Shoes */
+.shoe-row
+{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+/* Each Individual  Box In A Row Of Shoes */
+.shoes-box
+{
+    width:300px;
+    height:900px;
+    background-color:white;
+    border-style:solid;
+    border-color:white;
+    border-radius:25px;
+    border-width:8px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Background Of The Shoe Images (Applies To The First Row Only)*/
+.shoe-img-bg
+{
+    background-color:#F1F1F1;
+    border-radius:25px;
+}
+
+/* Casual Shoe Images */
+.shoe-cas-img
+{
+    width:200px;
+    height:450px;
+    padding-left:50px;
+    padding-top:20px;
+}
+
+/* Formal Shoe Images */
+.shoe-for-img
+{
+    width:300px;
+    height:450px;
+}
+
+/* Div Containing The Shoe Description (Includes The Heading & The Paragraph Both) */
+.shoe-descript
+{
+    padding-left:20px;
+    width:250px;
+    height:150px;
+    margin-top:0px;
+}
+
+/* Individual Shoe Names (Headings) */
+.shoe-name-head
+{ 
+    font-family:roboto;
+    font-size:30px;
+}
+
+/* Paragraph Containing The Shoe Description */
+.p
+{
+    color:black;
+    font-family:sans-serif;
+    font-weight:normal;
+    font-size:20px;
+}
+
+/* To Create Space Between The Heading And The Para In The Shoe Card */
+.p1
+{
+    padding-top:30px;
+}
+
+/* Shoe Card Footer */
+ .card-footer
+ {
+     width:300px;
+     padding-bottom:50px;
+ }
+ 
+ /* Price On The Shoe Card */
+ .price
+ {
+     font-family:roboto;
+     font-size:30px;
+     padding-left:20px;
+     padding-top:20px;
+     margin-bottom:0px;
+ }
+
+/* The "Buy Now" Button In The Shoe Cards */
+.buy-now-btn-in-cards
+{
+    width:150px;
+    height:50px;
+    font-size:15px;
+    font-weight:bold;
+    color:white;
+    background-color:#3D4FF3;
+    border-radius:20px;
+    border:0px;
+    margin-left:130px;
+}
+
+/* Services Section */
+.services
+{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+}
+
+/* Bottom Banner Div */
+.bottom-banner
+{
+    margin-top:150px;
+}
+
+/* The Bottom Banner Image */
+#bottom-banner
+{
+    width:450px;
+    height:300px;
+}
+
+/* Services Cards */
+.service-cards
+{
+    margin-top:150px;
+}
+
+/* Each Individual Service Card */
+.card
+{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    background-color:white;
+    width:460px;
+    height:200px;
+    border-radius:20px;
+}
+
+/* Heading Of The Card */
+.card-head
+{
+    color:#363958;
+    font-size:25px;
+    font-family:roboto;
+    text-align:center;
+    margin-bottom:0px;
+}
+
+/* Body (Contains Heading & Para) Of The Service Cards */
+.card-body
+{
+    width:230px;
+    margin-top:20px;
+}
+
+/* Div For The Images In The Service Cards */
+.card-img
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-right:35px;
+}
+
+/* Images In The Service Cards */
+.service-img
+{
+    width:100px;
+    height:100px;
+    
+}
+
+/* Para In The Service Cards */
+.card-para
+{
+    font-family:sans-serif;
+    color:black;
+    font-weight:normal;
+    padding-left:10px;
+    
+}
+
+.newsletter-sec
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+
+.newsletter
+{
+    background-color:white;
+    width:940px;
+    height:250px;
+    border-radius:20px;
+}
+
+.subs-head
+{
+    font-family:roboto;
+    font-size:30px;
+    text-align:center;
+    /* padding-top:50px; */
+}
+
+.email-form
+{
+    display: flex;
+    justify-content: center;
+}
+
+.email-input
+{
+    width:600px;
+    height:50px;
+}
+
+.subs-btn
+{
+    width:150px;
+    height:55px;
+    font-size:15px;
+    background-color:#3D4FF3;
+    border-radius:5px;
+    border:0px;
+    color:white;
+}
+
+footer
+{
+    width:100%;
+    background-color:#F1F1F1;
+    text-align:center;
+}
+
+.row1
+{
+    display:flex;
+    justify-content:space-around;
+}
+
+.row2
+{
+    display:flex;
+    justify-content:space-around;
+}
+
+.col-head
+{
+    font-family:roboto;
+    font-size:20px;
+    color:#363958;
+    margin-bottom:-10px;
+}
+
+#copyright
+{
+    display:flex;
+    justify-content:center;
+}
